@@ -1,0 +1,112 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.logo-container h1 {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: hwb(199 79% 1%)
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Courier", monospace;
+}
+
+h2, h3, h4, h5 {
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    color: #404040;
+}
+
+footer {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Courier", monospace;
+}
+
+.rectangle-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0px;
+}
+
+.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+    width: 15%;
+    height: 67px;
+    background-color: #f6a935;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    transition: background-color 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.rectangle1:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover {
+    background-color: #ffaf01;
+    width: 16%; /* Increase width by 10% on hover */
+    height: 74px; /* Increase height by 7% on hover */
+}
+
+.rectangle2 {
+    background-color: #f63535;
+}
+
+.rectangle2:hover {
+    background-color: #ff0000;
+}
+
+.rectangle3 {
+    background-color: #f6356f;
+}
+
+.rectangle3:hover {
+    background-color: #ff0066;
+}
+
+.rectangle3 {
+    background-color: #f6356f;
+}
+
+.rectangle4 {
+    background-color: #f635dc;
+}
+
+.rectangle4:hover {
+    background-color: #cc00cc;
+}
+
+.rectangle1 p, .rectangle2 p, .rectangle3 p, .rectangle4 p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.rectangle1 p a, .rectangle2 p a, .rectangle3 p a, .rectangle4 p a {
+    color: white;
+}
