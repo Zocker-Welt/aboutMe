@@ -21,6 +21,11 @@ body {
     background-color: hwb(199 79% 1%)
 }
 
+/* body dark */
+body.dark {
+    background-color: #293038
+}
+
 h1 {
     text-align: center;
     font-size: 100px;
@@ -109,4 +114,108 @@ footer {
 
 .rectangle1 p a, .rectangle2 p a, .rectangle3 p a, .rectangle4 p a {
     color: white;
+}
+
+/* Dark switch */
+
+.top-right-corner {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+    transform:translateX(24px);
+}
+
+.label {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    width: 50px;
+    height: 26px;
+}
+
+.label.dark {
+    background-color: #fff;
+}
+
+.ball {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s ease;
+}
+
+.ball.dark {
+    background-color: #111;
+}
+
+.logo-container h1.dark {
+    color: #ffffff;
+}
+
+body p.dark {
+    color: #fff;
+}
+
+.text-container1.dark {
+    color: #fff;
+}
+
+.text-container1 p.dark {
+    color: #fff;
+}
+
+.text-container2.dark {
+    color: #fff;
+}
+
+.text-container2 p.dark {
+    color: #fff;
+}
+
+.text-container3.dark {
+    color: #fff;
+}
+
+.text-container3 p.dark {
+    color: #fff;
+}
+
+.text-container4.dark {
+    color: #fff;
+}
+
+.text-container4 p.dark {
+    color: #fff;
+}
+
+.text-container5.dark {
+    color: #fff;
+}
+
+.text-container5 p.dark {
+    color: #fff;
+}
+
+a {
+    color: #2693db
 }
