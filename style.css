@@ -71,7 +71,20 @@ footer {
     transition: width 0.3s ease, height 0.3s ease;
 }
 
-.rectangle1:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover {
+.rectangle5, .rectangle6 {
+    width: 15%;
+    height: 67px;
+    background-color: #ff5d5d;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    transition: background-color 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.rectangle1:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover, .rectangle5:hover, .rectangle6:hover {
     background-color: #ffaf01;
     width: 16%; /* Increase width by 10% on hover */
     height: 74px; /* Increase height by 7% on hover */
@@ -105,14 +118,26 @@ footer {
     background-color: #cc00cc;
 }
 
-.rectangle1 p, .rectangle2 p, .rectangle3 p, .rectangle4 p {
+.rectangle5:hover {
+    background-color: #ff4949;
+}
+
+.rectangle6 {
+    background-color: #1f1f1f;
+}
+
+.rectangle6:hover {
+    background-color: #0e0e0e;
+}
+
+.rectangle1 p, .rectangle2 p, .rectangle3 p, .rectangle4 p, .rectangle5 p, .rectangle6 p {
     color: #ffffff;
     font-size: 22px;
     font-weight: lighter;
     text-align: center;
 }
 
-.rectangle1 p a, .rectangle2 p a, .rectangle3 p a, .rectangle4 p a {
+.rectangle1 p a, .rectangle2 p a, .rectangle3 p a, .rectangle4 p a, .rectangle5 p a, .rectangle6 p a {
     color: white;
 }
 
@@ -219,3 +244,4 @@ body p.dark {
 a {
     color: #2693db
 }
+
